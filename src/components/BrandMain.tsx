@@ -70,7 +70,12 @@ const BrandMainContainer = styled.div`
     
     @media (max-width: 991px) {
         height: 100vh;
+        padding-top: 80px;
     }
+    @media (max-width: 625px ){
+        padding-top: 10px;
+    }
+
     span {
         color: ${props => props.theme.fontFour}
     }
