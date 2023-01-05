@@ -5,9 +5,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: black!important;
+  padding: 0;
+  margin: 0;
+  display: block;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body .offcanvas-backdrop.show {
+  opacity: 0.8;
+}
+
+body .offcanvas {
+  background-image: linear-gradient(to left, black, gray);
+  height: 100vh!important;
+}
+body .offcanvas .offcanvas-body a { 
+  text-decoration: none;
+}
+body .offcanvas .offcanvas-body a h3 { 
+  color: #be0707;
+  margin: 0;
+
+}
+body .offcanvas .offcanvas-body li a  {
+        color: white;
+        margin: 0;
+}
+body .offcanvas .offcanvas-body li a:hover  {
+  color: #be0707;
+}
+body .offcanvas .offcanvas-body li  {
+        list-style: none;
+        padding-left: 20px;
+}
+
+* {
+  font-family: "Red Hat Display";
+  scroll-behavior: smooth
+}
+body .offcanvas .menu-closemark {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+body .offcanvas .menu-closemark p {
+  margin: 0;
+  color: #be0707;
+  cursor: pointer;
+  padding-right: 20px;
+}
+body .offcanvas .menu-closemark p:hover {
+  color: white;
 }
